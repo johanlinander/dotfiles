@@ -51,5 +51,5 @@ export TERM="xterm-256color"
 
 export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/johan/bin
 export PATH=/usr/local/bin:$PATH
-export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
-export POWERLINE_COMMAND=/Users/johan/Library/Python/2.7/bin/powerline
+#export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
+#export POWERLINE_COMMAND=/Users/johan/Library/Python/2.7/bin/powerline
