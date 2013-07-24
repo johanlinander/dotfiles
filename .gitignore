@@ -1,1 +1,7 @@
 .netrwhist
+.DS_Store
+.gitattributes
+
+*.pem
+
+config/libimobiledevice/libimobiledevicerc
