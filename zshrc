@@ -49,7 +49,7 @@ source $ZSH/oh-my-zsh.sh
 # Terminal 256 colors
 export TERM="xterm-256color"
 
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/johan/bin
-export PATH=/usr/local/bin:$PATH
-#export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
-#export POWERLINE_COMMAND=/Users/johan/Library/Python/2.7/bin/powerline
+export ARCHFLAGS="-arch x86_64"
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/johan/bin
+#export PATH=/usr/local/bin:$PATH
+export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
