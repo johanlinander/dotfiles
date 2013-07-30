@@ -14,6 +14,7 @@ sudo easy_install pip
 sudo pip install git+git://github.com/Lokaltog/powerline
 ```
 
+###Universal
 ```bash
 git clone git://github.com/johanlinander/dotfiles ~/dotfiles
 cd ~/dotfiles
