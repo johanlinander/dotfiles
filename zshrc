@@ -50,6 +50,9 @@ source $ZSH/oh-my-zsh.sh
 export TERM="xterm-256color"
 
 export ARCHFLAGS="-arch x86_64"
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/johan/bin
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/johan/bin
 #export PATH=/usr/local/bin:$PATH
 export PYTHONPATH=$(brew --prefix)/lib/python2.7/site-packages
+
+alias fixow='/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain local -domain user;killall Finder;echo "Open With has been rebuilt, Finder will relaunch"'
+
